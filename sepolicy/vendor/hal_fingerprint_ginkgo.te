@@ -1,5 +1,8 @@
 type hal_fingerprint_ginkgo, domain;
 hal_server_domain(hal_fingerprint_ginkgo, hal_fingerprint)
+type sysfs_fingerprint, fs_type, sysfs_type;
+type hal_perf_hwservice, hwservice_manager_type;
+type hal_perf_default, domain;
 
 type hal_fingerprint_ginkgo_exec, exec_type, vendor_file_type, file_type;
 init_daemon_domain(hal_fingerprint_ginkgo)
